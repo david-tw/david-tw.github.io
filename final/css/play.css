@@ -1,0 +1,113 @@
+@keyframes fade-in
+{
+	0%{ opacity: 0;}
+    100%{opacity:1;}
+}
+@keyframes fade-out
+{
+	0%{ opacity: 1;}
+    100%{opacity:0;}
+}
+
+
+@keyframes rainbow{
+    0%{
+        background-color: #EFBB24;
+    }
+    16%{
+        background-color: #E83015;
+    }
+    32%{
+        background-color: #CB1B45;
+    }
+    48%{
+        background-color: #6D2E5B;
+    }
+    64%{
+        background-color: #113285;
+    }
+    80%{
+        background-color: #1B813E;
+    }
+    100%{
+        background-color: #EFBB24;
+    }
+}
+body{
+    background-color:  #FFFFFB;
+}
+div{
+    font-family: Microsoft YaHei;
+}
+.jumbotron {
+    background-color: #FFFFFB;
+    color: #EFBB24;
+}
+
+#dropdownMenuButton {
+    background-color: #EFBB24;
+    border-style: hidden;
+    margin-top: -100px;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+button.dropdown-item:active{
+    background-color: #FAD689;
+    border-color: #F7C242;
+}
+#optionList button
+ {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: #41adb1;
+    border-color: aliceblue;
+    font-family: unset;
+    font-style: unset;
+    animation-name: fade-in;
+    animation-duration:1s;
+}
+div,#subtit{
+    text-align: center;
+}
+button#option1,button#option2{
+    background-color: #EFBB24;
+    color: #FCFAF2;
+}
+   
+
+button#finalbutton {
+    background-color: #EFBB24;
+    color: #FCFAF2;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    animation-name: rainbow,fade-in;
+    animation-duration: 5s,3s;
+    animation-iteration-count:infinite,1;
+   
+}
+button#option2:hover,button#option1:hover,button#finalbutton:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translate3d(-5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+ #home{
+    text-align: left;
+    color: #E98B2A;
+ }
+ a{
+     color: #E98B2A;
+ }
+ a:hover,a:active{
+    font-size: 20px;
+    color: #E83015;
+    text-decoration-line: none;
+}
+#firstrow{
+    height: 30px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What to eat</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/play.css">
+</head>
+        
+<body>
+<div class="container">
+    <div class="row" id="firstrow">
+        <div class="col" id="home"> <a href="./index.html">Home</a>  | 2019 David Zhang</div>
+    </div>
+    <div class="jumbotron">
+        <h1><p>你喜歡哪個</p></h1>
+        <footer id="subtit">請選擇較喜歡的餐廳</footer>
+    </div>
+    <!-- 先來一個選單決定地點 -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          選擇地點
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <button class="dropdown-item" id="n1">118(社科)</a>
+          <button class="dropdown-item" id="n2">公館</a>
+          <button class="dropdown-item" id="n3">校內學餐</a>
+          <button class="dropdown-item" id="n4">新生南路(新體)</a>
+        </div>
+      </div>
+     
+<!-- 弄出兩個圓形button給使用者點 -->
+    <div class="row" id="optionList">
+        <div class="col-3"></div>
+        <div class="col-3">
+            <button id="option1" type="button" class="btn btn-warning">四面八方</button> 
+        </div>
+        <div class="col-3">
+            <button id="option2" type="button" class="btn btn-warning">咖哩廚房</button> 
+        </div>   
+    </div>
+    
+</div>    
+
+
+
+
+    <!-- 引入 Bootstrap 的 JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- my own JS -->
+    <script src="./js/play.js"></script>
+</body>
+</html>
